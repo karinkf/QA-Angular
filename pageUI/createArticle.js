@@ -16,10 +16,10 @@ const comment = faker.lorem.sentence()
 
 const generateTitle = faker.random.word();
 
-const { getToken } = require('../api/page/get-token-page.js')
-const { dataToken } = require('../api/data/get-token-data.js')
-const { dataArticle } = require('../api/data/dataArticle.js')
-const { createArticle } = require('../api/page/create-article.js')
+const { getToken } = require('../api/page/get-token-page')
+const { dataToken } = require('../api/data/get-token-data')
+const { dataArticle } = require('../api/data/dataArticle')
+const { createArticle } = require('../api/page/create-article')
 
 /**
  * 1. Akses laman URL
