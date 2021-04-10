@@ -1,2 +1,12 @@
 # QA-Angular
-Learn QA Automation using CodeceptJS by testing https://angular.realworld.io/ website
+Learn QA Automation using CodeceptJS Playwright by testing https://angular.realworld.io/ website. 
+- UI Testing
+- API Testing
+
+Dependencies:
+- chai
+- dotenv
+- faker
+- mocha
+- mochawesome
+- supertest
