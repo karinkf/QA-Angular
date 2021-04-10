@@ -1,0 +1,24 @@
+{
+  "name": "qa-automation",
+  "version": "1.0.0",
+  "description": "learn qa automation using codeceptJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "codeceptjs run --reporter mochawesome --reporter-options reportDir=output,reportFilename=index.html"
+  },
+  "author": "Karin",
+  "license": "MIT",
+  "dependencies": {
+    "codeceptjs": "^3.0.5",
+    "playwright": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "dotenv": "^8.2.0",
+    "faker": "^5.5.1",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2",
+    "mochawesome-screenshots": "^1.7.3",
+    "supertest": "^6.1.3"
+  }
+}
